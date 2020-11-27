@@ -31,7 +31,7 @@ echo pageHeader("File Upload - Uploading a simple file");
 //   return;
 // }
 
-$credentials_file = __DIR__ . '/cl.json';
+$credentials_file = __DIR__ . '/oauth-credentials.json';
 if(file_exists($credentials_file)){
   $oauth_credentials = $credentials_file;
   // echo 'found';
